@@ -12,12 +12,21 @@
         <h1>
             Mijn website
         </h1>
+        <p>
+            Remus van der Vossen
+        </p>
     </header>
 
     <body>
-        <p>Welkom op mijn website</p>
+        <p>Welkom op mijn website!</p>
 
-        <p>Rutrum bibendum justo, nisl a venenatis fermentum mollis. Nisi aliquam pharetra tincidunt, leo rhoncus blandit, primis sagittis lacinia odio donec felis inceptos. Dolor id eget malesuada, rutrum euismod consectetur dictum lectus. Eros pharetra placerat ad, suspendisse lectus scelerisque, suscipit vestibulum pellentesque massa volutpat donec at. Ut congue, sodales mollis donec molestie. Erat purus ut aliquam, metus habitant massa, libero neque at etiam eros amet.</p><p>Risus donec enim, primis morbi metus suspendisse egestas. Sapien porttitor, per donec nostra sagittis. Lacinia volutpat accumsan augue, euismod egestas porttitor facilisis vulputate. Fames praesent, proin molestie libero interdum. Vel nibh non interdum, ut taciti primis, est diam massa habitasse senectus semper feugiat nec.</p><p>Dapibus nam aliquam augue, urna sapien commodo, cursus integer morbi varius pulvinar mi magna. Platea nunc orci cursus, libero lobortis scelerisque, lorem maecenas taciti habitant tincidunt risus. Viverra ipsum ullamcorper, tempus quis, eget suscipit nullam habitant dui aliquam felis. Nunc auctor neque, rhoncus aliquet felis ultricies placerat. Vivamus sit condimentum, non cursus, posuere purus suspendisse aliquam curabitur. Aptent purus, iaculis phasellus quisque accumsan. Velit urna ipsum, etiam tristique, auctor augue porta lobortis phasellus ullamcorper potenti.</p><p>Varius nullam molestie, fringilla tempus viverra non ligula. Suspendisse egestas, elementum auctor congue. Eros nunc et, adipiscing congue, lacinia auctor varius sagittis taciti. Porta ultricies aliquam, pharetra himenaeos consectetur ullamcorper. Luctus suscipit, mi aenean nostra. Erat diam neque, etiam orci aenean convallis. Leo nulla, dictum malesuada aliquam et. Venenatis at donec, dapibus lectus fringilla urna. Faucibus tristique, mollis iaculis egestas mi.</p><p>Netus ultrices nibh mi, ad curabitur semper, lacinia adipiscing nisl etiam pellentesque ut. Iaculis tortor, hac consectetur netus. Bibendum sollicitudin amet, egestas sodales, auctor et gravida rhoncus rutrum a. Risus habitasse facilisis fringilla, senectus taciti sapien phasellus sem. Interdum leo nunc felis, nibh massa mauris, aenean vitae potenti diam phasellus etiam. Euismod ac neque morbi, quisque vivamus consectetur, donec convallis ligula sodales facilisis accumsan hendrerit.</p>
+        <img src="videos/dolphin.gif" alt="An animated gif of that one dolphin meme" width = 100%>
+
+        <p>Ik ben Remus van der Vossen, ik ben vierdejaars wiskundestudent aan de UvA en momenteel aan het pretstuderen. Deze website is een opdracht voor de minor programmeren.
+        </p>
+
+        <p>Ik heb deze website gemaakt met behulp van <a href = "https://htmlforpeople.com/" >Html for people</a>. Onderstaande knop heeft me 5 uur van googlen gekost. <span id="extra-text" style = "display:none"> Transparante video in een website proberen te crammen is namelijk echt bijzonder lastig. Chrome en Firefox vinden een webm met transparantie prima, maar op Safari is dit for some reason borked. Als je dit dus op Safari bekijkt, krijg je een mov bestand met flink verlaagde resolutie in ProRes 4444, die nogsteeds groter is dan de webm versie.</span>
+        </p>
 
         <div class="overlay-container" id="brainrot-video-container">
             <video muted loop playsinline id="brainrot-video">
@@ -33,6 +42,7 @@
             document.getElementById("brainrot-video-container").style.visibility = "visible"
             document.getElementById("brainrot-video").play()
             document.getElementById("brainrotify-button").style.display = "none";
+            document.getElementById("extra-text").style.display = "inline";
             }
         </script>
     </body>
