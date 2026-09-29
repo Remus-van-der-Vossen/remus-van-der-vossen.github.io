@@ -6,7 +6,7 @@
     "Helvetica Neue", sans-serif;
   --serif-font: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
-  --standard-border-radius: 5px;
+  --standard-border-radius: 20px;
   --border-width: 0px;
 
   /* Default (light) theme */

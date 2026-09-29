@@ -2,18 +2,27 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vh;
+  width: 100lvw;
+  height: 100lvh;
   z-index: 10; /* Adjust layer height */
   pointer-events: none; /* Allows clicks to pass through */
-  /* visibility: hidden; */
+  visibility: hidden;
+  border-radius: 0px;
+  display: grid;
+  place-items: center;
+}
+
+.brainrot-video-container {
+    min-width: 100%;
+    min-height: 100%;
+    aspect-ratio: 16/9 !important;
+    object-fit: cover;
 }
 
 #brainrot-video {
-  alpha: 80%
-  width: 100%;
   height: 100%;
   object-fit: cover;
   background: transparent;
-  opacity: 1;
+  opacity: 0.95;
+  border-radius: 0px;
 }

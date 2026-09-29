@@ -25,14 +25,16 @@
         <p>Ik ben Remus van der Vossen, ik ben vierdejaars wiskundestudent aan de UvA en momenteel aan het pretstuderen. Deze website is een opdracht voor de minor programmeren.
         </p>
 
-        <p>Ik heb deze website gemaakt met behulp van <a href = "https://htmlforpeople.com/" >Html for people</a>. Onderstaande knop heeft me 5 uur van googlen gekost. <span id="extra-text" style = "display:none"> Transparante video in een website proberen te crammen is namelijk echt bijzonder lastig. Chrome en Firefox vinden een webm met transparantie prima, maar op Safari is dit for some reason borked. Als je dit dus op Safari bekijkt, krijg je een mov bestand met flink verlaagde resolutie in ProRes 4444, die nogsteeds groter is dan de webm versie.</span>
+        <p>Ik heb deze website gemaakt met behulp van <a href = "https://htmlforpeople.com/" >Html for people</a>. Onderstaande knop heeft me 5 uur van googlen gekost. <span id="extra-text" style = "display:none"> Transparante video in een website plaatsen is namelijk echt bijzonder lastig. Chrome en Firefox vinden een webm met transparantie prima, maar op Safari is dit for some reason borked. Als je dit dus op Safari bekijkt, krijg je een mov bestand met flink verlaagde resolutie in ProRes 4444, die nogsteeds groter is dan de webm versie.</span>
         </p>
 
         <div class="overlay-container" id="brainrot-video-container">
-            <video muted loop playsinline id="brainrot-video">
-                <source src="videos/vuur.mov" type="video/quicktime">
-                <source src="videos/vuur.webm" type="video/webm">
-            </video>
+            <div class="brainrot-video-container">
+                <video muted loop playsinline id="brainrot-video">
+                    <source src="videos/vuur.mov" type="video/quicktime">
+                    <source src="videos/vuur.webm" type="video/webm">
+                </video>
+            </div>
         </div>
 
         <button onclick="makeFire()" id="brainrotify-button">Make it better!</button>
