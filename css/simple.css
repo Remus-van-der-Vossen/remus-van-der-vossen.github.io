@@ -7,14 +7,14 @@
   --serif-font: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
   --standard-border-radius: 20px;
-  --border-width: 0px;
+  --border-width: 1px;
 
   /* Default (light) theme */
   --bg: floralwhite;
   --accent-bg: burlywood;
   --text: #212121;
   --text-light: #585858;
-  --border: #898EA4;
+  --border: #212121;
   --accent: sandybrown;
   --accent-hover: orange;
   --accent-text: var(--bg);
