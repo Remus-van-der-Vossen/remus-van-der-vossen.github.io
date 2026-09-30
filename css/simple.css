@@ -20,8 +20,9 @@
   --accent-text: var(--bg);
   --code: #d81b60;
   --preformatted: #444;
-  --marked: #ffdd33;
-  --disabled: #efefef;
+  /* --marked: antiquewhite; */
+  --marked: orange;
+  --disabled: lightgrey;
 }
 
 /* Reset box-sizing */

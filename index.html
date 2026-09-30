@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Remus' Homepage</title>
-        
+
         <link rel="stylesheet" href="css/simple.css">
         <link rel="stylesheet" href="css/video.css">
     </head>
@@ -25,7 +25,7 @@
         <p>Ik ben Remus van der Vossen, ik ben vierdejaars wiskundestudent aan de UvA en momenteel aan het pretstuderen. Deze website is een opdracht voor de minor programmeren.
         </p>
 
-        <p>Ik heb deze website gemaakt met behulp van <a href = "https://htmlforpeople.com/" >Html for people</a>. Onderstaande knop heeft me 5 uur van googlen gekost. <span id="extra-text" style = "display:none"> Transparante video in een website plaatsen is namelijk echt bijzonder lastig. Chrome en Firefox vinden een webm met transparantie prima, maar op Safari is dit for some reason borked. Als je dit dus op Safari bekijkt, krijg je een mov bestand met flink verlaagde resolutie in ProRes 4444, die nogsteeds groter is dan de webm versie.</span>
+        <p>Ik heb deze website gemaakt met behulp van <a href = "https://htmlforpeople.com/" >Html for people</a>. Druk op de knop om hem beter te maken.
         </p>
 
         <div class="overlay-container" id="brainrot-video-container">
@@ -37,15 +37,24 @@
             </div>
         </div>
 
-        <button onclick="makeFire()" id="brainrotify-button">Make it better!</button>
+        <button
+            onclick="makeBetter()"
+            id="brainrotify-button"
+            style="padding:1em">
+            Make it better!
+        </button>
 
         <script>
-        function makeFire() {
+        function makeBetter() {
             document.getElementById("brainrot-video-container").style.visibility = "visible"
             document.getElementById("brainrot-video").play()
-            document.getElementById("brainrotify-button").style.display = "none";
-            document.getElementById("extra-text").style.display = "inline";
+            document.getElementById("brainrotify-button").disabled = true;
+            document.getElementById("after-button").style.display = "inline";
             }
         </script>
+
+        <p id="after-button" style = "display:none"><mark>Je hebt op de knop gedrukt om hem beter te maken.</mark> Deze feature heeft me oprecht 5 uur van mn leven gekost. Transparante video in een website plaatsen is namelijk echt bijzonder lastig. Chrome en Firefox vinden een webm met transparantie prima, maar op Safari is dit for some reason borked. Als je dit dus op Safari bekijkt, krijg je een mov bestand met flink verlaagde resolutie in ProRes 4444, die nogsteeds groter is dan de webm versie. Een mov bestand met de HEVC codec zou ook werken op Safari, maar in tegenstelling tot bij ProRes 4444, proberen Chrome en Firefox dit bestand wel te displayen, maar ze snappen de alpha layer niet, waardoor je een zwarte achtergrond krijgt.<!-- (Blijkbaar had ik dit ook gewoon met een geanimeerde PNG kunnen doen en dan had het overal gewerkt maar dit werkt nu ook en ik heb geen zin meer om het te veranderen) --></p>
+
+        <p>Mijn vrije tijd spendeer ik met bla bla</p>
     </body>
 </html>
