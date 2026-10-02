@@ -1,0 +1,28 @@
+header {
+  position: relative;
+}
+
+.hammer-gif {
+  position: absolute;
+  top: 0%;
+  width: 220px;
+  height: auto;
+  pointer-events: none;
+}
+
+.beam-gif {
+  position: absolute;
+  top: 0%;
+  transform: translateX(-220px);
+  width: 220px;
+  height: auto;
+  pointer-events: none;
+}
+
+.dumptruck-gif {
+  display: block;
+  margin: auto;
+  width: 80%;
+  height: auto;
+  pointer-events: none;
+}
